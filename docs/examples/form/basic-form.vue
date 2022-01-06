@@ -1,6 +1,7 @@
 <template>
   <el-form ref="formRef" :model="form" label-width="120px">
-    <el-form-item label="Activity name">
+    <el-form-item>
+    <span slot='label'>5555</span>
       <el-input v-model="form.name"></el-input>
     </el-form-item>
     <el-form-item label="Activity zone">
